@@ -2,7 +2,9 @@ import aiohttp
 import asyncio
 import time
 
-
+"""
+    通过协程实现接口并发
+"""
 async def task(n):
     url = 'https://www.baidu.com'
     headers = {
